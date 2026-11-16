@@ -1,0 +1,14 @@
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\bin\Debug\net10.0\BackendTraining.exe
+C:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\bin\Debug\net10.0\BackendTraining.deps.json
+C:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\bin\Debug\net10.0\BackendTraining.runtimeconfig.json
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\bin\Debug\net10.0\BackendTraining.dll
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\bin\Debug\net10.0\BackendTraining.pdb
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.AssemblyInfoInputs.cache
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.AssemblyInfo.cs
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.csproj.CoreCompileInputs.cache
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.dll
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\refint\BackendTraining.dll
+c:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.pdb
+C:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\BackendTraining.genruntimeconfig.cache
+C:\Users\MAXIM\Documents\обучение dotnet backend\BackendTraining\obj\Debug\net10.0\ref\BackendTraining.dll
