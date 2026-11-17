@@ -2,6 +2,48 @@
 BankAccount account = new BankAccount("Alex", 5000);
 decimal remainingLimit = 10000m;
 
+// Storage<decimal> money = new Storage<decimal>(5000m);
+
+// Storage<string> name = new Storage<string>("Alex");
+// int[] numbers = { 10, 20, 30, 40 };
+// string[] names = { "Alex", "David", "Maria" };
+
+// Utility utility = new Utility();
+
+// Console.WriteLine(utility.GetLast(numbers));
+// Console.WriteLine(utility.GetLast(names));
+
+// money.SetValue(10000);
+// name.SetValue("David");
+
+// Console.WriteLine(money.GetValue());
+// Console.WriteLine(name.GetValue());
+
+Dictionary<int, decimal> MyDatabaseBankAccounts = new();
+MyDatabaseBankAccounts.Add(101, 5000);
+MyDatabaseBankAccounts.Add(102, 12000);
+MyDatabaseBankAccounts.Add(103, 7500);
+
+if (MyDatabaseBankAccounts.TryGetValue(102, out decimal count))
+{
+    Console.WriteLine(count);
+}
+else
+{
+    Console.WriteLine("Пользователь не найден");
+}
+
+MyDatabaseBankAccounts[102] = 15000;
+
+if (MyDatabaseBankAccounts.TryGetValue(102, out decimal countt))
+{
+    Console.WriteLine(countt);
+}
+else
+{
+    Console.WriteLine("Пользователь не найден");
+}
+
 // ===== ВЫБОР УВЕДОМЛЕНИЙ =====
 
 Console.WriteLine("=== MiniBank ===");

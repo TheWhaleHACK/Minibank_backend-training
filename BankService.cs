@@ -81,5 +81,39 @@ public class BankService
             Console.WriteLine(operation.GetDescription());
         }
     }
+
+    public decimal GetTotalDeposits()
+    {
+        // определяет что именно депозит операция, прошли на 2 неделе
+        return history
+            .Where(operation => operation is DepositOperation)
+            .Sum(t => t.Amount);
+    }
+
+    public decimal GetTotalWithdraws()
+    {
+        // определяет что именно депозит операция, прошли на 2 неделе
+        return history
+            .Where(operation => operation is WithdrawOperation)
+            .Sum(t => t.Amount);
+    }
+
+    public decimal GetBalanceChange()
+    {
+        // Можно по модулю, если не надо знать: ушли ли мы в минус например за месяц или нет
+        return GetTotalDeposits() - GetTotalWithdraws();
+    }
+
+    public decimal GetAverageDeposit()
+    {
+        // Среднее арифметическое число пополнения
+        var deposits = history
+            .Where(operation => operation is DepositOperation);
+
+        if (!deposits.Any())
+            return 0m;
+
+        return deposits.Average(operation => operation.Amount);
+    }
 }
 
